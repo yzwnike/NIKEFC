@@ -1,0 +1,186 @@
+[
+    {
+        "nombre": "Yazawa",
+        "posicion": "DC",
+        "valor_fifa": 92,
+        "valor_mercado": 190000000,
+        "edad": 29,
+        "otros_detalles": "🍀10M"
+    },
+    {
+        "nombre": "Mario",
+        "posicion": "MCO",
+        "valor_fifa": 90,
+        "valor_mercado": 140000000,
+        "edad": 27,
+        "otros_detalles": "🔸"
+    },
+    {
+        "nombre": "Mister",
+        "posicion": "DFC",
+        "valor_fifa": 89,
+        "valor_mercado": 50000000,
+        "edad": 32,
+        "otros_detalles": "🔸"
+    },
+    {
+        "nombre": "Hugo",
+        "posicion": "DFC",
+        "valor_fifa": 88,
+        "valor_mercado": 40000000,
+        "edad": 30,
+        "otros_detalles": "🔻10M"
+    },
+    {
+        "nombre": "Vehí",
+        "posicion": "POR",
+        "valor_fifa": 88,
+        "valor_mercado": 35000000,
+        "edad": 29,
+        "otros_detalles": "🔻5M"
+    },
+    {
+        "nombre": "Stark",
+        "posicion": "MD",
+        "valor_fifa": 87,
+        "valor_mercado": 110000000,
+        "edad": 25,
+        "otros_detalles": "🔸"
+    },
+    {
+        "nombre": "Joanet",
+        "posicion": "MC",
+        "valor_fifa": 87,
+        "valor_mercado": 70000000,
+        "edad": 26,
+        "otros_detalles": "🔻10M"
+    },
+    {
+        "nombre": "Bustos",
+        "posicion": "MC",
+        "valor_fifa": 87,
+        "valor_mercado": 30000000,
+        "edad": 33,
+        "otros_detalles": "🔻5M"
+    },
+    {
+        "nombre": "Pablo",
+        "posicion": "DFC",
+        "valor_fifa": 86,
+        "valor_mercado": 25000000,
+        "edad": 31,
+        "otros_detalles": "🔻5M"
+    },
+    {
+        "nombre": "Alain",
+        "posicion": "MI",
+        "valor_fifa": 85,
+        "valor_mercado": 50000000,
+        "edad": 27,
+        "otros_detalles": "🔻5M"
+    },
+    {
+        "nombre": "Riviere",
+        "posicion": "MC",
+        "valor_fifa": 85,
+        "valor_mercado": 50000000,
+        "edad": 27,
+        "otros_detalles": "🔻5M"
+    },
+    {
+        "nombre": "Martawis",
+        "posicion": "DC",
+        "valor_fifa": 84,
+        "valor_mercado": 60000000,
+        "edad": 24,
+        "otros_detalles": "🍀15M"
+    },
+    {
+        "nombre": "Ale",
+        "posicion": "DC",
+        "valor_fifa": 82,
+        "valor_mercado": 24000000,
+        "edad": 23,
+        "otros_detalles": "🔸"
+    },
+    {
+        "nombre": "Nike",
+        "posicion": "MCO",
+        "valor_fifa": 81,
+        "valor_mercado": 60000000,
+        "edad": 19,
+        "otros_detalles": "🍀10M"
+    },
+    {
+        "nombre": "Chalex",
+        "posicion": "MC",
+        "valor_fifa": 81,
+        "valor_mercado": 18000000,
+        "edad": 24,
+        "otros_detalles": "🔻2M"
+    },
+    {
+        "nombre": "Raigo",
+        "posicion": "MC",
+        "valor_fifa": 80,
+        "valor_mercado": 12000000,
+        "edad": 28,
+        "otros_detalles": "🔻1,5M"
+    },
+    {
+        "nombre": "Walter",
+        "posicion": "DFC",
+        "valor_fifa": 80,
+        "valor_mercado": 6000000,
+        "edad": 30,
+        "otros_detalles": "🔻3M"
+    },
+    {
+        "nombre": "Berni",
+        "posicion": "DFC",
+        "valor_fifa": 79,
+        "valor_mercado": 800000,
+        "edad": 38,
+        "otros_detalles": "🔻0,2M"
+    },
+    {
+        "nombre": "Armando",
+        "posicion": "MD",
+        "valor_fifa": 78,
+        "valor_mercado": 7000000,
+        "edad": 27,
+        "otros_detalles": "🔸"
+    },
+    {
+        "nombre": "Etarky",
+        "posicion": "DFC",
+        "valor_fifa": 77,
+        "valor_mercado": 6000000,
+        "edad": 25,
+        "otros_detalles": "🔸"
+    },
+    {
+        "nombre": "Palusa",
+        "posicion": "DFC",
+        "valor_fifa": 73,
+        "valor_mercado": 7000000,
+        "edad": 22,
+        "otros_detalles": "(CEDIDO)🔸"
+    },
+    {
+        "nombre": "Krazer",
+        "posicion": "POR",
+        "valor_fifa": 75,
+        "valor_mercado": 5300000,
+        "edad": 25,
+        "otros_detalles": "🍀4,3M"
+    },
+    {
+        "nombre": "Yazy",
+        "posicion": "DC",
+        "valor_fifa": 72,
+        "valor_mercado": 20000000,
+        "edad": 16,
+        "otros_detalles": "🍀12M"
+    }
+]

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f3f3f3;
+    line-height: 1.6;
+    background-image: url('equipo1.jpeg'); /* Establecer la nueva imagen de fondo */
+    background-size: cover; /* Cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que se repita la imagen */
+    color: white; /* Cambiar el color del texto si es necesario */
+}
+/* Header fijo con logo */
+header {
+    background: linear-gradient(to right, #b2b2b6, #141414);
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(109, 108, 108, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    margin-left: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #00d084;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.jugador-stats {
+    margin-top: 20px;
+}
+
+.jugador {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}

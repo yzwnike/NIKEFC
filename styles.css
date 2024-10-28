@@ -1,0 +1,609 @@
+
+/*index */
+
+/* Reset */
+
+/* styles.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f3f3f3;
+    line-height: 1.6;
+    background-image: url('equipo1.jpeg'); /* Establecer la nueva imagen de fondo */
+    background-size: cover; /* Cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que se repita la imagen */
+    color: white; /* Cambiar el color del texto si es necesario */
+}
+/* Header fijo con logo */
+header {
+    background: linear-gradient(to right, #b2b2b6, #141414);
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(109, 108, 108, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    margin-left: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #00d084;
+}
+
+/* Sección de Inicio */
+
+#inicio {
+    background: url('equipo1.jpeg') no-repeat center center/cover;
+    color: #fff;
+    padding: 6rem 2rem;
+    text-align: center;
+    min-height: 100vh; /* Asegura que el contenido ocupe toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding: 20px; /* Agregar un poco de espacio en los bordes */
+}
+
+.section-inicio {
+    position: relative; /* Para que el bloque de fondo se posicione correctamente */
+    text-align: center; /* Centrar el texto */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+.bloque-fondo {
+    background-color: rgba(14, 13, 13, 0.849); /* Fondo negro semitransparente */
+    color: white; /* Color del texto blanco para contraste */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 30px; /* Espacio interno */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra del bloque */
+    animation: fadeIn 1s ease; /* Animación de entrada */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+º
+
+#inicio h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 1.5s ease-out;
+}
+
+#inicio p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    animation: fadeIn 2s ease-out;
+}
+
+#inicio .logo {
+    width: 150px;
+    height: auto;
+    animation: bounceIn 2.5s ease-out;
+}
+
+/* Sección Plantilla */
+#plantilla {
+    background: url('') no-repeat center center/cover;
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.jugadores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+
+.jugador {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    color: #fff;
+    
+}
+
+.jugador img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* apartados index
+
+/* Sección de acceso a apartados */
+.apartado {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+#plantilla-section {
+    background-image: url('hor.jpg');
+}
+
+#resultados-section {
+    background-image: url('ver.PNG');
+}
+
+#noticias-section {
+    background-image: url('nike.png');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+#galeria-section {
+    background-image: url('hor.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+}
+
+.apartado-contenido {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.apartado h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.apartado p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.apartado button {
+    background-color: #00d084;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apartado button:hover {
+    background-color: #007d4b;
+}
+
+
+/* Estilos específicos para la página de plantilla */
+.header-plantilla {
+    background-color: #f8f8f8;
+    padding: 20px; /* Ajusta el espacio alrededor del contenido del header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para separación visual */
+    position: relative; /* Asegúrate de que esté en el flujo normal del documento */
+}
+
+
+.nav-plantilla ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-plantilla li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.section-plantilla {
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilos para los jugadores */
+.player-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.player-card {
+    position: relative;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.player-card .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.5; /* Aplica opacidad solo al fondo */
+    z-index: 1;
+}
+
+.player-card .content {
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.player-card .content h3 {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 5px;
+}
+
+.player-card .content p {
+    
+    margin: 5px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.player-card.joanet .content h3,
+.player-card.joanet .content p {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+/* Estilo para el texto en blanco de Joanet */
+.player-card.texto-claro .content {
+    color: #ffffff;
+}
+
+
+.player-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos para los jugadores */
+.player-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.player-card {
+    position: relative;
+    color: rgb(158, 142, 165);
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.player-card .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.5; /* Aplica opacidad solo al fondo */
+    z-index: 1;
+}
+
+.player-card .content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Estilo para el texto en blanco de Joanet */
+.player-card.texto-claro .content {
+    color: #ffffff;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustar color de fondo de la sección plantilla */
+.section-plantilla {
+    background: #f0f0f0; /* Color de fondo claro */
+    padding: 20px;
+    color: #333; /* Color de texto para la sección */
+}
+
+/* Asegúrate de que los títulos también sean visibles */
+.section-plantilla h2 {
+    color: #333; /* Cambia el color del título a un color oscuro */
+}
+
+
+.filter {
+    display: flex; /* Usar flexbox para alinear elementos horizontalmente */
+    align-items: center; /* Centrar verticalmente los elementos */
+    margin: 20px 0; /* Espacio arriba y abajo del bloque del filtro */
+    padding: 10px; /* Espacio interno */
+    background-color: #f0f0f0; /* Color de fondo del bloque */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.filter label {
+    margin-right: 10px; /* Espacio a la derecha de las etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
+    color: black;
+}
+
+.filter input {
+    padding: 5px; /* Espacio interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-right: 10px; /* Espacio a la derecha del campo de entrada */
+    flex: 1; /* Permitir que el campo de entrada use espacio disponible */
+}
+
+.filter select {
+    padding: 5px; /* Espacio interno del select */
+    border: 1px solid #ccc; /* Borde del select */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-right: 10px; /* Espacio a la derecha del select */
+}
+
+.filter button {
+    padding: 5px 10px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.filter button:hover {
+    background-color: #0056b3; /* Color de fondo en hover */
+}
+
+.title-container {
+    background-color: #007bff; /* Color de fondo del recuadro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 20px; /* Espacio debajo del recuadro */
+    position: relative; /* Posicionamiento relativo para animaciones */
+    overflow: hidden; /* Ocultar contenido que sobresalga */
+}
+
+.title {
+    font-size: 2rem; /* Tamaño de la fuente */
+    color: white; /* Color del texto */
+    margin: 0; /* Sin margen */
+    animation: fadeIn 0.5s ease; /* Animación de entrada */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Desplazamiento inicial hacia arriba */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Volver a la posición original */
+    }
+}
+
+/* Efecto de sombra para el recuadro */
+.title-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2); /* Fondo blanco semi-transparente */
+    border-radius: 10px;
+    z-index: 0; /* Detrás del texto */
+    transform: scale(0.9); /* Reducir tamaño para efecto de entrada */
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Transición suave */
+}
+
+.title-container:hover::before {
+    transform: scale(1); /* Aumentar tamaño al hacer hover */
+    opacity: 1; /* Hacer visible */
+}
+
+.title-container:hover .title {
+    animation: none; /* Detener animación al hacer hover */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Sombra de texto brillante */
+}
+
+
+.nacionalidad-container {
+    position: relative;
+}
+
+.nacionalidad-img {
+    width: 50px; /* Ajusta el tamaño según lo necesites */
+    height: auto;
+    opacity: 0.5; /* Opacidad de la imagen */
+    position: absolute;
+    top: 0; /* Ajusta según tu diseño */
+    right: 0; /* Ajusta según tu diseño */
+}
+
+
+.highlighted-name {
+    color: #fff; /* Blanco para que resalte en fondos oscuros */
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+    padding: 3px;
+    text-decoration: underline;
+}
+
+
+
+.section-estadisticas {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px 0 20px; /* Ajusta el margen superior */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#filtro {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#lista-estadisticas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.estadistica-jugador {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.jugador-stats {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.jugador-stats table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.jugador-stats th, .jugador-stats td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.jugador-stats th {
+    background-color: #f4f4f4;
+}

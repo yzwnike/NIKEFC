@@ -1,0 +1,79 @@
+body {
+    background-image: url('campo.jpg'); /* Fondo de campo */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 128, 0, 0.8); /* Color de fondo del header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #fff; /* Color de los encabezados */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#alineacionContainer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #ffcc00; /* Color del botón */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b800; /* Color del botón al pasar el ratón */
+}
+
+.formacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bloque {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    color: #fff; /* Cambia el color según el fondo */
+    cursor: pointer;
+}
+
+.bloque:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Color al pasar el ratón */
+}
+
+.portero {
+    background-color: rgba(255, 255, 0, 0.7); /* Color de portero */
+}
+
+.defensa {
+    background-color: rgba(255, 0, 0, 0.7); /* Color de defensa */
+}
+
+.mediocampo {
+    background-color: rgba(0, 255, 0, 0.7); /* Color de mediocampo */
+}
+
+.delantera {
+    background-color: rgba(0, 0, 255, 0.7); /* Color de delantera */
+}
+
+#volver {
+    margin-top: 20px;
+}
